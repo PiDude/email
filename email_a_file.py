@@ -36,7 +36,7 @@ mail.starttls()
 
 mail.ehlo()
 
-mail.login('dxjones00','GOOGpwd1')
+mail.login('dxjones00','that password')
 
 mail.sendmail('dxjones00@gmail.com','dxjones00@yahoo.com', msg.as_string())
 
